@@ -1,0 +1,30 @@
+.colorlib-widget .form-group input {
+    
+    background: rgba(0, 0, 0, 0.5);
+    background: transparent;
+    border:  1px black solid;
+    margin-bottom: 5px;
+    background: rgba(223, 208, 208, 0.15);
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .colorlib-widget .form-group textarea {
+    background: rgba(0, 0, 0, 0.5);
+    background: transparent;
+    background: rgba(223, 208, 208, 0.15);
+    border: 1px black solid;    
+    -webkit-box-shadow: none;
+    margin-bottom: 5px;
+    box-shadow: none; }
+  .colorlib-widget .form-group #btn-submit {
+    background: #324065;
+    color: #fff; }    
+   #colorlib-footer{
+          margin-top: 3%;
+          
+      }
+
+      .cont-us{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(54, 53, 53);
+        font-weight: 200;
+      }

@@ -1,0 +1,90 @@
+.container1 {
+    position: relative;
+   
+  }
+  
+  .imag2 {
+    opacity: 1;
+    display: block;    
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+
+  .mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 60% ;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  .container1:hover .imag2 {
+    opacity: 0.6;
+  }
+  
+  .container1:hover .middle {
+    opacity: 1;
+  }
+
+  .container1:hover .mid {
+    opacity: 1;
+  }
+  
+  
+
+  .button-name {
+    
+    border-radius: 10% !important;    
+    text-align: center;   
+    display: inline-block;
+    font-size: 11px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: 200px;
+    padding: 5px;
+  }
+
+  .about-img{
+    
+      border-radius:"20px" ; 
+      margin-top:"5%";
+  }
+  
+
+  a:link, a:visited {
+    
+    color: rgb(19, 19, 18);
+    font-weight: 300px !important;    
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  a:hover, a:active {
+    background-color:rgba(112, 112, 109, 0.5);
+    border-radius: 3px;
+    font-weight: 200px;
+  }
+
+
+
+  .feat-rooms{
+    height:"200px" ;
+    width:"350px"!important ;
+    border-radius:"20px"
+}

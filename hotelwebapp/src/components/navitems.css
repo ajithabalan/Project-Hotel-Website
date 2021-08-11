@@ -1,0 +1,165 @@
+
+@media (min-width:768px) 
+{
+    .navitem{        
+        margin-right: 3px !important;
+        display: flex;
+        justify-content: flex-end;
+        gap: 25px;
+        
+    };
+    img{       
+        height: 300px !important;
+    }   
+    .Header{
+        background-color: rgba(0, 0, 0, .1);
+    }
+
+.banner-link{
+    position: absolute;
+    z-index: 100;
+    left: 450px;
+    top: 150px;
+    border: 2px black solid;
+    border-radius: 5%;
+    /* height: 200px; */
+    height: 50%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: beige;
+}
+   
+}
+
+
+
+@media (max-width:767px) {
+    .Header{
+        background-color: rgb(99, 96, 96);
+    }
+
+   
+    
+    .banner-link{
+        position: absolute;
+        margin-left: 0px !important;
+        margin-bottom: 0%;
+        max-height: 10px !important;        
+        left: 35%;
+
+    display: none;
+    justify-content: center;
+    align-items: center;    
+    color: beige;
+ 
+    }       
+    .link-title{
+        margin-left: 5px !important;
+    }
+    
+ }
+ 
+ 
+ 
+ 
+ 
+ button{
+    color: rgb(194, 194, 173) !important;
+}
+
+
+
+
+.Header{
+     /* background-color: rgba(0, 0, 0, .1);  */
+    position: fixed;     
+    z-index: 1000;
+    top: 0px;
+    min-width: 100% !important;   
+   
+    
+}
+
+
+
+
+.buttext{
+    color: rgb(235, 235, 241) !important;
+    font-weight: 500px !important;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.active{
+    border: 2px white solid;
+}
+
+.nav-active{
+    background-color: rgb(95, 93, 93);
+}
+
+
+.banner-img2{
+     height:"500px" !important; 
+     width:"100%"
+}
+
+
+.circular-progress-light {
+    width: 15px;
+    height: 15px;
+    margin-left:  1.6rem;
+    margin-right: 1.6rem;
+    border-radius: 50%;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    animation: spin 2s linear infinite;
+}
+
+.circular-progress-dark {
+    width: 20px;
+    height: 20px;
+    margin-left:  1.6rem;
+    margin-right:  1.6rem;
+    border-radius: 50%;
+    border-top: 2px solid black;    
+    animation: spin 2s linear infinite;    
+    border-left: 2px solid black;
+}
+
+.progress-loading {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loading-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, .5);
+}
+
+.is-img-loading {
+  opacity: 0;
+}
+
+.is-img-loaded {
+  animation: fadeIn .3s ease;
+  opacity: 1;
+}
+
+
